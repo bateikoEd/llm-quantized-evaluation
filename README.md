@@ -8,10 +8,11 @@ source venv/bin/activate
 make install
 ```
 
-Download quantized Mistral-7B in GGUF format from [TheBloke/Mistral-7B-v0.1-GGUF](https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/tree/main)
+Download quantized Mistral-7B in GGUF format from [TheBloke/Mistral-7B-v0.1-GGUF](https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/tree/main) 
+and save it into the `models` directory.
 
 
-Set up path to save JSON results.
+Set up the path to save JSON results.
 
 ```bash
 export DEEPEVAL_RESULTS_FOLDER="<YOUR_PATH>"
@@ -22,6 +23,6 @@ Run evaluation.
 deepeval test run test_evaluation.py
 ```
 
-In the terminal you should see mth like that.
+In the terminal, you should see mth like that.
 
 ![img.png](images/img.png)
