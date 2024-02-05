@@ -1,0 +1,6 @@
+langchain==0.1.0
+pytest==7.4.4
+deepeval==0.20.49
+llama-cpp-python
+detoxify==0.5.1
+Dbias==0.1.5
